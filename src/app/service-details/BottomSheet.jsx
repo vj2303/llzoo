@@ -5,7 +5,7 @@ const BottomSheet = ({ isOpen, onClose, service }) => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 flex justify-center items-end bg-black bg-opacity-50">
+    <div className="fixed inset-0 flex justify-center items-end bg-gray-100 bg-opacity-50">
       <div className="bg-white w-full max-w-lg rounded-t-2xl p-4">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-lg font-bold">{service.name}</h2>
